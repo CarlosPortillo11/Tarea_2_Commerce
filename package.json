@@ -11,7 +11,7 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "author": "",
+  "author": "Carlos Portillo",
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -23,5 +23,13 @@
     "sass-loader": "7.*",
     "tailwindcss": "^1.0.4",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosPortillo11/Tarea-2-commerce-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosPortillo11/Tarea-2-commerce-app/issues"
+  },
+  "homepage": "https://github.com/CarlosPortillo11/Tarea-2-commerce-app#readme"
 }
