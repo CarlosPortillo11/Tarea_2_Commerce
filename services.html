@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,94 +9,121 @@
     <link rel="stylesheet" href="./public/css/app.css" />
     <script src="./public/js/app.js"></script>
 </head>
+
 <body>
-    <div class="h-screen z-100" style="background: linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);">
-        <nav class="h-16 flex align-items justify-between px-3">
-            <a href="/services.html" class="flex items-center">
+    <div class="h-screen" style="background: linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);">
+        <nav class="h-16 lg:h-20 flex align-items justify-between px-3">
+            <a href="/index.html" class="flex items-center lg:ml-10">
                 <img src="/resources/images/Commerce-logo.svg">
             </a>
-            <img src="/resources/images/menu.svg">
+            <div class="hidden lg:inline-block my-6">
+                <ul class="flex justify-around">
+                    <a href="/index.html">
+                        <li class="text-white text-base font-opensans font-medium trackin-wide">Home</li>
+                    </a>
+                    <a href="/services.html" class="mx-20">
+                        <li class="text-white text-base font-opensans font-medium trackin-wide">Comercio</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="lg:hidden flex items-center">
+                <img src="/resources/images/menu.svg">
+            </div>
         </nav>
-        <div class="h-screen">
-            <div class="mt-32">
-                <p class="text-white font-sans font-bold font-opensans text-4xl text-center mx-10 tracking-wider">
-                    Mejora tus servicios con nosotros
-                </p>
-                <p class="text-white text-base align-center font-opensans text-center mt-5 mx-3 tracking-wide">
-                    !La primera aplicación móvil que te permite generar reservas en restaurantes, doctores
-                    ,estilo de vida y más en un solo lugar!
-                </p>
+        <div class="">
+            <div class="mt-32 lg:flex lg:justify-center lg:mx-48 lg:items-center lg:mt-0">
+                <div>
+                    <p
+                        class="text-white font-sans font-bold font-opensans text-4xl lg:text-6xl text-center mx-10 tracking-wider">
+                        Mejora tus servicios con nosotros
+                    </p>
+                    <p
+                        class="text-white text-base align-center font-opensans text-center mt-5 mx-3 lg:mx-10 tracking-wide">
+                        !La primera aplicación móvil que te permite generar reservas en restaurantes, doctores
+                        ,estilo de vida y más en un solo lugar!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
     <section>
-        <div class="pl-8 pt-10 mb-16">
-            <p class="text-blue text-4xl font-opensans font-extrabold tracking-wide">
-                Beneficios de Negocio
-            </p>
-            <div class="mt-5">
-                <p class="text-black font-opensans font-bold text-lg tracking-wide">
-                    Date a conocer
-                </p>
-                <p class="text-gray-600 text-base tracking-wide">
-                    Nuestra aplicación es una plataforma para automatizar y crecer tu empresa sin la
-                    necesidad de perder el toque humano que siempre es necesario.
-                </p>
+        <div class="lg:h-full lg:bg-gray-200 lg:flex lg:py-16">
+            <div class="hidden lg:block w-3/5">
+                <img class="h-128" src="/resources/images/laptop-busi.png">
             </div>
-            <div class="mt-5">
-                <p class="text-black font-opensans font-bold text-lg tracking-wide">
-                    Controla tus tiempos
+            <div class="pl-8 lg:ml-0 lg:pl-3 pt-10 lg:pt-5 mb-16 lg:mb-0 lg:w-2/5">
+                <p class="text-blue text-4xl font-opensans font-extrabold tracking-wide">
+                    Beneficios de Negocio
                 </p>
-                <p class="text-gray-600 text-base tracking-wide">
-                    Se más eficiente. Controla tus  tiempos efectivos para cada servicio ofrecido
-                    con el objetivo de eliminar tiempos muertos, mejorando tu capacidad y por ende tus
-                    ingresos.
-                </p>
-            </div>
-            <div class="mt-5">
-                <p class="text-black font-opensans font-bold text-lg tracking-wide">
-                    Crecemos contigo
-                </p>
-                <p class="text-gray-600 text-base tracking-wide">
-                    Nuestros planes de pago se han realizado pensando en tu y en el bienestar de tu
-                    empresa, acomodándose a tus requerimientos e ingreso.
-                </p>
-            </div>
-            <div class="mt-5">
-                <p class="text-black font-opensans font-bold text-lg tracking-wide">
-                    Mejora continua
-                </p>
-                <p class="text-gray-600 text-base tracking-wide">
-                    Nuestro equipo ya cuenta con mejoras por venir, incluyendo la capacidad de captar pagos
-                    de tus clientes por medio de la app, manejo de contabilidad, etc.
-                </p>
+                <div class="mt-5">
+                    <p class="text-black font-opensans font-bold text-lg tracking-wide">
+                        Date a conocer
+                    </p>
+                    <p class="text-gray-600 text-base tracking-wide">
+                        Nuestra aplicación es una plataforma para automatizar y crecer tu empresa sin la
+                        necesidad de perder el toque humano que siempre es necesario.
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <p class="text-black font-opensans font-bold text-lg tracking-wide">
+                        Controla tus tiempos
+                    </p>
+                    <p class="text-gray-600 text-base tracking-wide">
+                        Se más eficiente. Controla tus tiempos efectivos para cada servicio ofrecido
+                        con el objetivo de eliminar tiempos muertos, mejorando tu capacidad y por ende tus
+                        ingresos.
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <p class="text-black font-opensans font-bold text-lg tracking-wide">
+                        Crecemos contigo
+                    </p>
+                    <p class="text-gray-600 text-base tracking-wide">
+                        Nuestros planes de pago se han realizado pensando en tu y en el bienestar de tu
+                        empresa, acomodándose a tus requerimientos e ingreso.
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <p class="text-black font-opensans font-bold text-lg tracking-wide">
+                        Mejora continua
+                    </p>
+                    <p class="text-gray-600 text-base tracking-wide">
+                        Nuestro equipo ya cuenta con mejoras por venir, incluyendo la capacidad de captar pagos
+                        de tus clientes por medio de la app, manejo de contabilidad, etc.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="px-1">
-            <p class="text-3xl text-black font-extrabold font-opensans tracking-wide text-center">
-                Reduce la posibilidad de que tu cita sea cancelada o que tu cliente
-                no se presente
-            </p>
-            <p class="text-base text-gray-600 font-opensans tracking-wide text-center px-4 mt-5">
-                A través de una comunicación automática entre tu establecimiento y tu cliente
-                , se reducen las probabilidades de "no-shows", proporcionando un mejor seguimiento 
-                a cada cita programada, sin la necesidad de que tu o cualquiera de tus empleados pierda
-                el tiempo tratando de ponerse en contacto con cada uno de tus clientes.
-            </p>
-        </div>
-        <div class="py-10 ml-8">
-            <img src="/resources/images/reservations.jpg">
+        <div class="lg:flex lg:h-screen">
+            <div class="lg:flex lg:items-center lg:w-1/3 lg:ml-32">
+                <div class="px-1">
+                    <p class="text-3xl text-black font-extrabold font-opensans tracking-wide text-center lg:text-left">
+                        Reduce la posibilidad de que tu cita sea cancelada o que tu cliente
+                        no se presente
+                    </p>
+                    <p class="text-base text-gray-600 font-opensans tracking-wide text-center lg:text-left px-4 lg:px-0 mt-5">
+                        A través de una comunicación automática entre tu establecimiento y tu cliente
+                        , se reducen las probabilidades de "no-shows", proporcionando un mejor seguimiento
+                        a cada cita programada, sin la necesidad de que tu o cualquiera de tus empleados pierda
+                        el tiempo tratando de ponerse en contacto con cada uno de tus clientes.
+                    </p>
+                </div>
+            </div>
+            <div class="ml-8 my-5 lg:w-2/3 lg:flex lg:justify-between lg:flex-col">
+                <img class="lg:h-64 lg:w-64" src="/resources/images/reservations.jpg">
+                <img class="hidden lg:block lg:h-64 lg:w-64" src="/resources/images/schedule reservs.png">
+            </div>
         </div>
     </section>
     <section>
-        <div class="h-full" style="background: #1335B9;">
-            <div class="py-10">
-                <p class="text-4xl text-white font-opensans font-extrabold tracking-wide text-center">
+        <div class="h-full lg:h-screen lg:flex lg:items-center" style="background: #1335B9;">
+            <div class="py-10 lg:py-0 lg:w-1/2 lg:px-32">
+                <p class="text-4xl text-white font-opensans font-extrabold tracking-wide text-center lg:text-left">
                     Reporteria al instante
                 </p>
-                <p class="text-white text-base font-opensans tracking-wide text-center px-3">
+                <p class="text-white text-base font-opensans tracking-wide text-center lg:text-left px-3 lg:px-0">
                     Al contratar nuestro paquete Premium tienes la oportunidad de obtener toda la
                     reporteria necesaria para el manejo adecuado y acertado de tu negocio.
                     Desde reportes de venta generales a reportes de venta específicos de cada empleado,
@@ -103,13 +131,13 @@
                     actuales y potenciales.
                 </p>
             </div>
-            <div class="mb-16 ml-10">
+            <div class="mb-16 lg:mb-0 ml-10 lg:flex lg:justify-end lg:w-1/2">
                 <img src="/resources/images/reports.png">
             </div>
         </div>
     </section>
     <section>
-        <div class="pt-10">
+        <div class="pt-10 lg:mx-20">
             <div>
                 <p class="text-4xl text-black font-opensans font-extrabold tracking-wide text-center">
                     !Únete a nuestros comercios!
@@ -118,23 +146,23 @@
                     Guía general de uso de la aplicación y preguntas frecuentes
                 </p>
             </div>
-            <div class="flex flex-row justify-around">
-                <div class="flex flex-col">
+            <div class="flex flex-row lg:flex-col justify-around lg:my-10">
+                <div class="flex flex-col lg:flex-row lg:justify-center">
                     <img src="/resources/images/Subway.png">
-                    <img src="/resources/images/Buffalo.png">
-                    <img src="/resources/images/DonLi.png">
-                    <img src="/resources/images/Epic.png">
-                    <img src="/resources/images/Dennys.png">
+                    <img class="lg:ml-5" src="/resources/images/Buffalo.png">
+                    <img class="lg:ml-5" src="/resources/images/DonLi.png">
+                    <img class="lg:ml-5" src="/resources/images/Epic.png">
+                    <img class="lg:ml-5" src="/resources/images/Dennys.png">
                 </div>
-                <div class="flex flex-col">
+                <div class="flex flex-col lg:flex-row lg:justify-center">
                     <img src="/resources/images/Andián.png">
-                    <img src="/resources/images/DeliKat.png">
-                    <img src="/resources/images/Horse.png">
-                    <img src="/resources/images/Fisheria.png">
-                    <img src="/resources/images/KOI.png">
+                    <img class="lg:ml-5" src="/resources/images/DeliKat.png">
+                    <img class="lg:ml-5" src="/resources/images/Horse.png">
+                    <img class="lg:ml-5" src="/resources/images/Fisheria.png">
+                    <img class="lg:ml-5" src="/resources/images/KOI.png">
                 </div>
             </div>
-            <div class="flex justify-center py-10">
+            <div class="flex justify-center my-10">
                 <button class="py-2 px-16 rounded text-white text-lg font-opensans" style="background: #88D65C;">
                     Únete a nosotros
                 </button>
@@ -142,26 +170,27 @@
         </div>
     </section>
     <section>
-        <div class="h-full" style="background: #000D44;">
-            <div class="pt-12">
-                <p class="text-white text-3xl font-opensans font-extrabold tracking-wide text-center">
+        <div class="h-full lg:h-screen lg:flex lg:items-center lg:py-10" style="background: #000D44;">
+            <div class="pt-12 lg:pt-0 lg:w-1/3 lg:pl-24">
+                <p class="text-white text-3xl font-opensans font-extrabold tracking-wide text-center lg:text-left">
                     Planes de Servicio
                 </p>
-                <p class="text-white text-base font-opensans tracking-wide text-center mx-5 mt-3">
+                <p class="text-white text-base font-opensans tracking-wide text-center lg:text-left mx-5 lg:mx-0 mt-3 lg:mt-0">
                     Sé parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más
                     clientes y aumentar tus ventas.
                 </p>
-                <div class="mt-3 flex justify-center">
+                <div class="mt-3 flex justify-center lg:justify-start">
                     <button class="bg-transparent p-2 text-white font-opensans font-bold text-base tracking-wide">
                         Leer más
                     </button>
                 </div>
             </div>
-            <div class="h-full bg-white rounded mx-3 mt-8 mb-10">
+            <div class="h-full bg-white rounded mx-3 mt-8 lg:mt-0 lg:mt-0 mb-10 lg:mb-0">
                 <div class="h-3" style="background: linear-gradient(270deg, #031FC6 -3.85%, #8BDA5A 101.04%);">
                 </div>
                 <div class="mt-8">
-                    <p class="uppercase font-opensans font-extrabold text-2xl text-gray-600 tracking-wide text-center border-b-2 border-solid border-gray-400 mx-10 pb-5">
+                    <p
+                        class="uppercase font-opensans font-extrabold text-2xl text-gray-600 tracking-wide text-center border-b-2 border-solid border-gray-400 mx-10 pb-5">
                         Plan Básico
                     </p>
                     <p class="text-black font-opensans font-bold text-sm text-center mt-3">
@@ -171,11 +200,14 @@
                 <div class="mt-5 mx-6 flex justify-center flex-col">
                     <div>
                         <ul class="list-disc list-inside">
-                            <li class="text-gray-500 text-sm font-opensans">Uso limitado de nuestra aplicacion movil</li>
+                            <li class="text-gray-500 text-sm font-opensans">Uso limitado de nuestra aplicacion movil
+                            </li>
                             <li class="text-gray-500 text-sm font-opensans mt-3">Número de reservas: ilimitadas</li>
-                            <li class="text-gray-500 text-sm font-opensans mt-3">Recordatorios de reservas a tus clientes</li>
+                            <li class="text-gray-500 text-sm font-opensans mt-3">Recordatorios de reservas a tus
+                                clientes</li>
                             <li class="text-gray-500 text-sm font-opensans mt-3">Calificaciones de tus clientes</li>
-                            <li class="text-gray-500 text-sm font-opensans mt-3">Acceso a tu propio web service en donde podrás:</li>
+                            <li class="text-gray-500 text-sm font-opensans mt-3">Acceso a tu propio web service en donde
+                                podrás:</li>
                         </ul>
                     </div>
                     <div class="mt-5 ml-4">
@@ -188,17 +220,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex justify-center my-8"> 
+                <div class="flex justify-center my-8">
                     <button class="rounded py-1 px-16 text-white font-opensans text-base" style="background: #1335B9;">
                         Elegir plan
                     </button>
                 </div>
             </div>
-            <div class="h-full bg-white rounded mx-3 mt-24 mb-10">
+            <div class="h-full bg-white rounded mx-3 mt-24 lg:mt-0 mb-10 lg:mb-0">
                 <div class="h-3" style="background: linear-gradient(270deg, #031FC6 -3.85%, #8BDA5A 101.04%);">
                 </div>
                 <div class="mt-8">
-                    <p class="uppercase font-opensans font-extrabold text-2xl text-gray-600 tracking-wide text-center border-b-2 border-solid border-gray-400 mx-10 pb-5">
+                    <p
+                        class="uppercase font-opensans font-extrabold text-2xl text-gray-600 tracking-wide text-center border-b-2 border-solid border-gray-400 mx-10 pb-5">
                         Plan Premium
                     </p>
                     <p class="text-black font-opensans font-bold text-sm text-center mt-3">
@@ -208,7 +241,8 @@
                 <div class="mt-5 mx-6 flex justify-center flex-col">
                     <div>
                         <ul class="list-disc list-inside">
-                            <li class="text-gray-500 text-sm font-opensans">El plan premium incluye todo lo que el plan básico <span class="text-gray-600 font-bold text-sm font-opensans">más: </span></li>
+                            <li class="text-gray-500 text-sm font-opensans">El plan premium incluye todo lo que el plan
+                                básico <span class="text-gray-600 font-bold text-sm font-opensans">más: </span></li>
                             <li class="text-gray-500 text-sm font-opensans mt-3">Todo tipo de reporteria:</li>
                         </ul>
                     </div>
@@ -223,12 +257,14 @@
                     </div>
                     <div class="mt-5">
                         <ul class="list-disc list-inside">
-                            <li class="text-gray-500 text-sm font-opensans">Podrás observar opiniones y críticas de tus clientes</li>
-                            <li class="text-gray-500 text-sm font-opensans mt-4">Podrás tener hasta 4 promociones activas al mes</li>
+                            <li class="text-gray-500 text-sm font-opensans">Podrás observar opiniones y críticas de tus
+                                clientes</li>
+                            <li class="text-gray-500 text-sm font-opensans mt-4">Podrás tener hasta 4 promociones
+                                activas al mes</li>
                         </ul>
                     </div>
                 </div>
-                <div class="flex justify-center my-8"> 
+                <div class="flex justify-center my-8 lg:my-0 lg:mt-12">
                     <button class="rounded py-1 px-16 text-white font-opensans text-base" style="background: #C8C8C8;">
                         Elegir plan
                     </button>
@@ -237,7 +273,7 @@
         </div>
     </section>
     <section>
-        <div class="h-full" style="background: #FAFAFA;">
+        <div class="h-full lg:px-40" style="background: #FAFAFA;">
             <div class="pt-10">
                 <p class="text-4xl text-black font-opensans font-extrabold text-center">
                     Contáctanos
@@ -249,25 +285,29 @@
                         <p class="text-black text-lg font-bold font-opensans text-blue">
                             Nombre
                         </p>
-                        <input type="text" name="name" id="name" placeholder="Cameron Rogers" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500">
+                        <input type="text" name="name" id="name" placeholder="Cameron Rogers"
+                            class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
                     </div>
                     <div class="mt-5">
                         <p class="text-black text-lg font-bold font-opensans text-blue">
                             Mensaje
                         </p>
-                        <input type="text" name="name" id="name" placeholder="Escribe tu consulta" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500">
+                        <input type="text" name="name" id="name" placeholder="Escribe tu consulta"
+                            class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
                     </div>
                     <div class="mt-5">
                         <p class="text-black text-lg font-bold font-opensans text-blue">
                             Teléfono
                         </p>
-                        <input type="text" name="name" id="name" placeholder="7777-7777" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500">
+                        <input type="text" name="name" id="name" placeholder="7777-7777"
+                            class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
                     </div>
                     <div class="mt-5">
                         <p class="text-black text-lg font-bold font-opensans text-blue">
                             Correo Electrónico
                         </p>
-                        <input type="text" name="name" id="name" placeholder="cameron@hotmail.com" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500">
+                        <input type="text" name="name" id="name" placeholder="cameron@hotmail.com"
+                            class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
                     </div>
                     <div class="mt-10 pb-12 flex justify-center">
                         <button class="text-base text-white py-2 px-20 rounded" style="background: #1D42B1;">
@@ -296,4 +336,5 @@
         </div>
     </footer>
 </body>
+
 </html>
