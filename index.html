@@ -1,346 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Comerce-App</title>
-        <link rel="stylesheet" href="./public/css/app.css" />
-        <script src="./public/js/app.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comerce-App</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+    <script src="./public/js/app.js"></script>
+</head>
 
-    <body class>
-        <div class="h-full lg:h-screen" style="background: linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);">
-            <nav class="h-16 flex align-items justify-between px-3" id="navbar" style="background: linear-gradient(90deg, #031FC6 0%, #8BDA5A 101.79%);">
-                <a href="/index.html" class="flex items-center lg:ml-10">
-                    <img src="/resources/images/Commerce-logo.svg">
-                </a>
-                <div class="hidden lg:inline-block my-6">
+<body class>
+    <div class="h-full lg:h-auto" style="background: linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);">
+        <nav class="h-auto flex py-4 lg:py-6 justify-between px-3"
+            style="background: linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);" id="navbar">
+            <a href="/index.html" class="flex items-center lg:ml-10">
+                <img src="/resources/images/Commerce-logo.svg">
+            </a>
+            <div class="hidden lg:inline-block">
+                <div class="flex items-center">
                     <ul class="flex justify-around">
                         <a href="/index.html">
-                            <li class="text-white text-base font-opensans font-medium trackin-wide">Home</li>
+                            <li class="text-white text-xl font-opensans font-semibold trackin-wide">Home</li>
                         </a>
                         <a href="/services.html" class="mx-20">
-                            <li class="text-white text-base font-opensans font-medium trackin-wide">Comercio</li>
+                            <li class="text-white text-xl font-opensans font-semibold trackin-wide">Comercio</li>
                         </a>
                     </ul>
                 </div>
-                <div class="lg:hidden flex items-center">
-                    <img src="/resources/images/menu.svg">
-                </div>
-            </nav>
-            <div class="content">
-                <div class="lg:flex lg:ml-24">
-                    <div class="lg:order-last lg:mx-32">
-                        <div class="mt-5">
-                            <p class="text-white font-sans font-bold font-opensans text-3xl lg:text-5xl text-center lg:text-left mx-10 lg:mx-0 tracking-wider">
-                                ComerceApp te ayuda a manejar tus reservas
-                            </p>
-                            <p class="text-white text-base align-center font-medium font-opensans text-center lg:text-left mt-5 mx-3 lg:mx-0 tracking-wide">
-                                ¡La primera aplicación móvil que te permite generar reservas en restaurantes, doctores, estilo de vida y más en un solo lugar!
-                            </p>
-                        </div>
-                        <div class="flex justify-around lg:justify-start mt-5 lg:mt-10">
-                            <img src="/resources/images/Bitmap.png">
-                            <img class="lg:ml-16" src="/resources/images/PlayStore.png">
-                        </div>
-                    </div>
-                    <div class="lg:hidden">
-                        <div class="flex justify-center">
-                            <img src="/resources/images/Phone.png">
-                        </div>
-                    </div>
-                    <div class="hidden lg:block">
-                        <img class="h-128" src="/resources/images/phone-resp.png">
-                    </div>
-                </div>
-                <section>
-                    <div class="h-full lg:h-screen lg:flex lg:px-20" style="background: #1D42B1">
-                        <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
-                            <div>
-                                <p class="text-4xl text-white font-extrabold font-opensans text-center lg:text-left tracking-wide">
-                                    Reserva desde cualquier lugar
-                                </p>
-                                <p class="text-white text-base font-opensans text-center lg:text-left mx-1 mt-5">
-                                    Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera de los negocios afiliados a ComercioApp. Solamente selecciona tu establecimiento de preferencia, el día y la hora que deseas reservar y ¡listo!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex justify-center my-16 lg:my-0 lg:items-center lg:w-1/2">
-                            <img class="lg:h-128" src="/resources/images/phone-gps.png">
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="h-full lg:h-screen lg:flex lg:px-20" style="background: #88D65C;">
-                        <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
-                            <div>
-                                <p class="text-4xl text-blue font-extrabold font-opensans tracking-wide text-center lg:text-left">
-                                    Encuentra las mejores promociones
-                                </p>
-                                <p class="text-white text-base font-opensans mt-5 text-center lg:text-left">
-                                    Dales TAP! y ahorra lo más que puedas. Selecciona la promoción que quieras, dale ¡click! Al botón de “obtener promoción”, muéstrala en el establecimiento indicado y economiza tus gastos.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex justify-center my-12 lg:items-center lg:w-1/2">
-                            <img class="lg:h-128" src="/resources/images/phone-prom.png">
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="h-full lg:h-screen lg:flex" style="background: #1D42B1;">
-                        <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
-                            <div>
-                                <p class="text-white text-4xl font-extrabold font-opensans tracking-wide text-center lg:text-left">
-                                    No vuelvas a perder tu cita
-                                </p>
-                                <p class="text-white text-base font-opensans mt-5 text-center lg:text-left mx-3 lg:mx-0">
-                                    Con nuestras notificaciones automáticas, !nunca volverás a perder una cita! recibirás un recordatorio para que puedas planera con tiempo tu visita a tu establecimiento favorito. Si no te es posible atender a la hora y/o el día que habías reservado, no
-                                    te preocupes, re-agenda tu cita. Si vas a poder atender, reconfimala y ve, te estarán esperando.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex justify-center my-12 lg:items-center lg:w-1/2">
-                            <img class="lg:h-128" src="/resources/images/phone-reserve.png">
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="h-full lg:flex lg:justify-between" style="background: #FAFAFA">
-                        <div class="lg:flex lg:order-2 lg:right-0">
-                            <img src="/resources/images/Sells.jpg">
-                        </div>
-                        <div class="pt-10 lg:pt-0 lg:ml-48 lg:order-1 lg:flex lg:items-center lg:w-1/3">
-                            <div>
-                                <p class="text-lg text-gray-500 uppercase font-opensans font-bold text-center lg:text-left tracking-widest">
-                                    Comercios
-                                </p>
-                                <p class="text-black text-3xl font-extrabold font-opensans text-center lg:text-left">
-                                    !Aumenta tus ventas!
-                                </p>
-                                <p class="text-gray-800 text-sm font-opensans font-semibold tracking-wide mt-3 text-center lg:text-left mx-6 lg:mx-0">
-                                    Se parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
-                                </p>
-                                <div class="flex justify-center mt-8 mb-16 lg:mb-0">
-                                    <button class="px-16 py-2 text-white text-sm font-medium rounded" style="background: #88D65C;">
-                                    Leer más
-                                </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="bg-white">
-                        <div class="pt-8">
-                            <p class="text-4xl text-blue uppercase font-extrabold font-opensans tracking-wide text-center">
-                                Faq's
-                            </p>
-                            <p class="text-black text-base font-opensans tracking-wide text-center my-5">
-                                Gúia general de uso de la aplicación y preguntas frecuentes
-                            </p>
-                        </div>
-                        <div class="flex flex-col mt-12 mx-8 lg:mx-32">
-                            <div class="">
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                ¿Que es Tap the App?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        En TapApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
-                                    </p>
-                                    <br>
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
-                                        y aquí es donde TapApp entra en juego.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como usuario de la app, ¿Puedo re-agendar una cita a la que ya no podrea asistir?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide text-left">
-                                        !Claro! nada más entra a tu menú de reservas generadas, entra a la reserva que quieras modificar y reprogramar tu reserva para cuando quieras asistir.
-                                    </p>
-                                    <br>
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide text-left">
-                                        También puedes modificarla cuando te llegue la notificación de recordatorio automático, dale click al botón re-agendar y reprograma tu cita.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como usuario de la app, ¿como me califican?</button>
-                                <div class="panel mx-5 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Eres calificado según la cantidad de citas re-agendadas (entre más reprogrames, peor tu calificación), la cantidad de veces que canceles (entre más canceles, peor tu calificación) una cita y tu puntualidad (entre más puntual, mejora tu calificación)
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como usuario de la app, ¿que tengo que pagar?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Absolutamente !NADA! la app es gratuita y te la puedes descargar ya sea en la App Store de Apple o Google Play en Android.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">¿Qué
-                                pasa si como usuario de la app tengo una mala calificación?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Si tienes una mala calificación, los establecimientos a los que hagas una cita serán automáticamente notificados de tu calificación y ellos podrán elegir si aprobarte o denegarte tu cita.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como establecimiento, ¿Comó me califican?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Tus clientes, al finalizar la cita, te calificaran por medio de la pp dependiendo de tu servicio, puntualidad, precio, etc.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como establecimiento, ¿puedo mejorar mi plan?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        !Claro! Nada más entra a tu dashboard asignado, dale click al botón en la parte superior derecha a la pantalla donde indica el número de días en el que vence tu plan y elige tu nuevo plan.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="m">
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como establecimiento, ¿Qué pasa si llego al límite de citas agendadas (ver tu plan)</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Una vez que hayas alcanzado el límite de citas según tu plan, tus clientes no podrán reservar más citas.
-                                    </p>
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        En caso de que te actualices a un paquete superior, instantáneamente tendrá acceso a más citas, o puedes esperar hasta que se actualice el recuento de citas.
-                                    </p>
-                                    <br>
-                                    <p class="text-black text-base lg:text-lg font-opensans trackin-wide">
-                                        El recuento se actualizará cada 30 días después de que te hayas registrado o 30 días despúes de haber actualizado a uno de nuestros paquetes.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="">
-                                <button class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
-                                Como establecimiento, ¿a que reporteria tengo acceso?</button>
-                                <div class="panel mx-8 my-8">
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        Solamente al contar con unn plan premium podrás tener acceso a una amplia gama de reporteria, necesaria para poder manera adecuadamente tu negocio, desarrollandolo de manera continua y certera.
-                                    </p>
-                                    <br>
-                                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
-                                        La reporteria en el plan premium incluye desde reportes de venta, reporteria de reservas, de tus clientes y tus empleados, así como la efectividad de tus promociones y la distribución de tu tiempo.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="mt-10 h-full lg:mt-0 lg:px-40" style="background: #FAFAFA;">
-                        <div class="pt-16">
-                            <p class="text-4xl text-black font-opensans font-extrabold text-center">
-                                Contáctanos
-                            </p>
-                        </div>
-                        <div class="bg-white rounded mx-3 mt-5 mb-20">
-                            <div class="pt-8 px-8">
-                                <div>
-                                    <p class="text-black text-lg font-bold font-opensans text-blue">
-                                        Nombre
-                                    </p>
-                                    <input type="text" name="name" id="name" placeholder="Cameron Rogers" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
-                                </div>
-                                <div class="mt-5">
-                                    <p class="text-black text-lg font-bold font-opensans text-blue">
-                                        Mensaje
-                                    </p>
-                                    <input type="text" name="name" id="name" placeholder="Escribe tu consulta" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
-                                </div>
-                                <div class="mt-5">
-                                    <p class="text-black text-lg font-bold font-opensans text-blue">
-                                        Teléfono
-                                    </p>
-                                    <input type="text" name="name" id="name" placeholder="7777-7777" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
-                                </div>
-                                <div class="mt-5">
-                                    <p class="text-black text-lg font-bold font-opensans text-blue">
-                                        Correo Electrónico
-                                    </p>
-                                    <input type="text" name="name" id="name" placeholder="cameron@hotmail.com" class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
-                                </div>
-                                <div class="mt-10 pb-12 flex justify-center">
-                                    <button class="text-base text-white py-2 px-20 rounded" style="background: #1D42B1;">
-                                    Enviar Mensaje
-                                </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <footer class="h-full bg-black px-8 pt-8">
-                    <div class="flex justify-between">
-                        <div>
-                            <img src="/resources/images/logo-mark-bg.svg">
-                        </div>
-                        <div class="flex flex-row justify-right">
-                            <img class="ml-8" src="/resources/images/facebook.svg">
-                            <img class="ml-8" src="/resources/images/instagram.svg">
-                            <img class="ml-8" src="/resources/images/twitter.svg">
-                        </div>
-                    </div>
-                    <div class="my-5">
-                        <p class="text-white text-base font-opensans text-center">
-                            © Comerce. Todos los derechos reservados, 2019.
-                        </p>
-                    </div>
-                </footer>
             </div>
-            <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
+            <div class="lg:hidden flex items-center">
+                <img src="/resources/images/menu.svg">
+            </div>
+        </nav>
+        <div class="lg:flex lg:ml-24 pt-16 lg:pt-20">
+            <div class="lg:order-last lg:mx-32 lg:mt-20">
+                <div class="mt-5">
+                    <p
+                        class="text-white font-sans font-bold font-opensans text-3xl lg:text-5xl text-center lg:text-left mx-10 lg:mx-0 tracking-wide">
+                        ComerceApp te ayuda a manejar tus reservas
+                    </p>
+                    <p
+                        class="text-white text-base align-center font-medium font-opensans text-center lg:text-left mt-5 mx-3 lg:mx-0 tracking-wide">
+                        ¡La primera aplicación móvil que te permite generar reservas en restaurantes, doctores, estilo
+                        de vida y más en un solo lugar!
+                    </p>
+                </div>
+                <div class="flex justify-around lg:justify-start mt-5 lg:mt-10">
+                    <img src="/resources/images/Bitmap.png">
+                    <img class="lg:ml-16" src="/resources/images/PlayStore.png">
+                </div>
+            </div>
+            <div class="lg:hidden">
+                <div class="flex justify-center">
+                    <img src="/resources/images/Phone.png">
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <img class="h-128" src="/resources/images/phone-resp.png">
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="h-full lg:h-screen lg:flex lg:px-20" style="background: #1D42B1">
+            <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
+                <div>
+                    <p class="text-4xl text-white font-extrabold font-opensans text-center lg:text-left tracking-wide">
+                        Reserva desde cualquier lugar
+                    </p>
+                    <p class="text-white text-base font-opensans text-center lg:text-left mx-1 mt-5">
+                        Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera
+                        de los negocios afiliados a ComercioApp.
+                        Solamente selecciona tu establecimiento de preferencia, el día y la hora
+                        que deseas reservar y ¡listo!
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center my-16 lg:my-0 lg:items-center lg:w-1/2">
+                <img class="lg:h-128" src="/resources/images/phone-gps.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="h-full lg:h-screen lg:flex lg:px-20" style="background: #88D65C;">
+            <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
+                <div>
+                    <p class="text-4xl text-blue font-extrabold font-opensans tracking-wide text-center lg:text-left">
+                        Encuentra las mejores promociones
+                    </p>
+                    <p class="text-white text-base font-opensans mt-5 text-center lg:text-left">
+                        Dales TAP! y ahorra lo más que puedas. Selecciona la promoción que quieras, dale ¡click!
+                        Al botón de “obtener promoción”, muéstrala en el establecimiento indicado y economiza tus
+                        gastos.
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center my-12 lg:items-center lg:w-1/2">
+                <img class="lg:h-128" src="/resources/images/phone-prom.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="h-full lg:h-screen lg:flex" style="background: #1D42B1;">
+            <div class="pt-8 lg:flex lg:justify-start lg:items-center lg:w-1/2 lg:pl-24">
+                <div>
+                    <p class="text-white text-4xl font-extrabold font-opensans tracking-wide text-center lg:text-left">
+                        No vuelvas a perder tu cita
+                    </p>
+                    <p class="text-white text-base font-opensans mt-5 text-center lg:text-left mx-3 lg:mx-0">
+                        Con nuestras notificaciones automáticas, !nunca
+                        volverás a perder una cita! recibirás un recordatorio
+                        para que puedas planera con tiempo tu visita a tu establecimiento favorito.
+                        Si no te es posible atender a la hora y/o el día que habías reservado,
+                        no te preocupes, re-agenda tu cita. Si vas a poder atender,
+                        reconfimala y ve, te estarán esperando.
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center my-12 lg:items-center lg:w-1/2">
+                <img class="lg:h-128" src="/resources/images/phone-reserve.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="h-full lg:flex lg:justify-between" style="background: #FAFAFA">
+            <div class="lg:flex lg:order-2 lg:right-0">
+                <img src="/resources/images/Sells.jpg">
+            </div>
+            <div class="pt-10 lg:pt-0 lg:ml-48 lg:order-1 lg:flex lg:items-center lg:w-1/3">
+                <div>
+                    <p
+                        class="text-lg text-gray-500 uppercase font-opensans font-bold text-center lg:text-left tracking-widest">
+                        Comercios
+                    </p>
+                    <p class="text-black text-3xl font-extrabold font-opensans text-center lg:text-left">
+                        !Aumenta tus ventas!
+                    </p>
+                    <p
+                        class="text-gray-800 text-sm font-opensans font-semibold tracking-wide mt-3 text-center lg:text-left mx-6 lg:mx-0">
+                        Se parte de nuestros socios estratégicos.
+                        Únete a ComerceApp para llegar a más
+                        clientes y aumentar tus ventas.
+                    </p>
+                    <div class="flex justify-center mt-8 mb-16 lg:mb-0">
+                        <a href="/services.html">
+                            <button class="px-16 py-2 text-white text-sm font-medium rounded"
+                                style="background: #88D65C;">
+                                Leer más
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="pt-8">
+            <p class="text-4xl text-blue uppercase font-extrabold font-opensans tracking-wide text-center">
+                Faq's
+            </p>
+            <p class="text-black text-base font-opensans tracking-wide text-center my-5">
+                Gúia general de uso de la aplicación y preguntas frecuentes
+            </p>
+        </div>
+        <div class="flex flex-col mt-12 mx-8 lg:mx-32">
+            <div class="">
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    ¿Que es Tap the App?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        En TapApp somos una empresa dedicada a proporcionar una solución
+                        en cuanto al flujo de información entre tus clientes y tu
+                        establecimiento.
+                    </p>
+                    <br>
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Hoy en día, existe una gran demanda tecnológica de parte de los
+                        consumidores finales en cuanto a encontrar una solución para agendar
+                        una cita. Según investigaciones, 91% de personas encontrarían útil
+                        una aplicación celular para solucionar dicha problemática, y aquí es donde
+                        TapApp entra en juego.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como usuario de la app, ¿Puedo re-agendar una cita a la que ya no podrea asistir?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide text-left">
+                        !Claro! nada más entra a tu menú de reservas generadas, entra a la
+                        reserva que quieras modificar y reprogramar tu reserva para cuando quieras asistir.
+                    </p>
+                    <br>
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide text-left">
+                        También puedes modificarla cuando te llegue la notificación de recordatorio automático,
+                        dale click al botón re-agendar y reprograma tu cita.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como usuario de la app, ¿como me califican?</button>
+                <div class="panel mx-5 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Eres calificado según la cantidad de citas re-agendadas (entre más reprogrames,
+                        peor tu calificación), la cantidad de veces que canceles (entre más canceles, peor
+                        tu calificación) una cita y tu puntualidad (entre más puntual, mejora tu calificación)
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como usuario de la app, ¿que tengo que pagar?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Absolutamente !NADA! la app es gratuita y te la puedes descargar
+                        ya sea en la App Store de Apple o Google Play en Android.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">¿Qué
+                    pasa si como usuario de la app tengo una mala calificación?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Si tienes una mala calificación, los establecimientos a los que hagas una cita
+                        serán automáticamente notificados de tu calificación y ellos podrán elegir si
+                        aprobarte o denegarte tu cita.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como establecimiento, ¿Comó me califican?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Tus clientes, al finalizar la cita, te calificaran por medio de la pp dependiendo
+                        de tu servicio, puntualidad, precio, etc.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como establecimiento, ¿puedo mejorar mi plan?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        !Claro! Nada más entra a tu dashboard asignado, dale click al botón en la
+                        parte superior derecha a la pantalla donde indica el número de días en el que vence
+                        tu plan y elige tu nuevo plan.
+                    </p>
+                </div>
+            </div>
+            <div class="">
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como establecimiento, ¿Qué pasa si llego al límite de citas agendadas (ver tu plan)</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Una vez que hayas alcanzado el límite de citas según tu plan, tus clientes
+                        no podrán reservar más citas.
+                    </p>
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        En caso de que te actualices a un paquete superior, instantáneamente
+                        tendrá acceso a más citas, o puedes esperar hasta que se actualice el recuento
+                        de citas.
+                    </p>
+                    <br>
+                    <p class="text-black text-base lg:text-lg font-opensans trackin-wide">
+                        El recuento se actualizará cada 30 días después de que te hayas registrado
+                        o 30 días despúes de haber actualizado a uno de nuestros paquetes.
+                    </p>
+                </div>
+            </div>
+            <div class="">
+                <button
+                    class="accordion bg-transparent text-base lg:text-lg font-opensans text-black font-bold focus:outline-none">+
+                    Como establecimiento, ¿a que reporteria tengo acceso?</button>
+                <div class="panel mx-8 my-8">
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        Solamente al contar con unn plan premium podrás tener acceso a una amplia
+                        gama de reporteria, necesaria para poder manera adecuadamente tu negocio, desarrollandolo
+                        de manera continua y certera.
+                    </p>
+                    <br>
+                    <p class="text-black text-base lg:text-lg font-opensans tracking-wide">
+                        La reporteria en el plan premium incluye desde reportes de venta, reporteria
+                        de reservas, de tus clientes y tus empleados, así como la efectividad de tus promociones
+                        y la distribución de tu tiempo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mt-10 h-full lg:mt-0 lg:px-40" style="background: #FAFAFA;">
+            <div class="pt-16">
+                <p class="text-4xl text-black font-opensans font-extrabold text-center">
+                    Contáctanos
+                </p>
+            </div>
+            <div class="bg-white rounded mx-3 mt-5 mb-20">
+                <div class="pt-8 px-8">
+                    <div class="lg:flex">
+                        <div class="lg:w-1/2">
+                            <label for="name" class="text-black text-lg font-bold font-opensans text-blue">
+                                Nombre
+                            </label>
+                            <input type="text" name="name" id="name" required placeholder="Cameron Rogers"
+                                class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
+                        </div>
+                        <div class="mt-5 lg:mt-0 lg:w-1/2 lg:ml-5">
+                            <label for="msg" class="text-black text-lg font-bold font-opensans text-blue">
+                                Mensaje
+                            </label>
+                            <input type="text" name="message" id="msg" required placeholder="Escribe tu consulta"
+                                class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="lg:flex lg:mt-10">
+                        <div class="mt-5 lg:mt-0 lg:w-1/2">
+                            <label for="phone" class="text-black text-lg font-bold font-opensans text-blue">
+                                Teléfono
+                            </label>
+                            <input type="number" name="number" id="phone" required placeholder="7777-7777"
+                                class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
+                        </div>
+                        <div class="mt-5 lg:mt-0 lg:w-1/2 lg:ml-5">
+                            <label for="email" class="text-black text-lg font-bold font-opensans text-blue">
+                                Correo Electrónico
+                            </label>
+                            <input type="email" name="mail" id="email" required placeholder="cameron@hotmail.com"
+                                class="w-full text-lg mt-3 py-2 rounded border-1 border-solid border-blue-500 focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="mt-10 lg:mt-16 pb-12 flex justify-center">
+                        <input type="submit" value="Envíar Mensaje"
+                            class="text-base text-white py-2 px-20 rounded cursor-pointer" style="background: #1D42B1;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="h-auto bg-black px-8 pt-8">
+        <div class="flex justify-between">
+            <div>
+                <img src="/resources/images/logo-mark-bg.svg">
+            </div>
+            <div class="flex flex-row justify-right">
+                <img class="ml-8" src="/resources/images/facebook.svg">
+                <img class="ml-8" src="/resources/images/instagram.svg">
+                <img class="ml-8" src="/resources/images/twitter.svg">
+            </div>
+        </div>
+        <div class="py-5">
+            <p class="text-white text-base font-opensans text-center">
+                © Comerce. Todos los derechos reservados, 2019.
+            </p>
+        </div>
+    </footer>
 
-                for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.display === "block") {
-                            panel.style.display = "none";
-                        } else {
-                            panel.style.display = "block";
-                        }
-                    });
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
                 }
-            </script>
-            <script>
-                window.onscroll = function() {
-                    myFunction()
-                };
+            });
+        }
+    </script>
+    <script>
+        window.onscroll = function () { myFunction() };
 
-                var navbar = document.getElementById("navbar");
-                var sticky = navbar.offsetTop;
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
 
-                function myFunction() {
-                    if (window.pageYOffset >= sticky) {
-                        navbar.classList.add("sticky")
-                    } else {
-                        navbar.classList.remove("sticky");
-                    }
-                }
-            </script>
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 
 
-    </body>
+</body>
 
 </html>
