@@ -94,7 +94,6 @@
 /***/ (function(module, exports) {
 
 console.log('hello word');
-var gretting = 'hello';
 
 /***/ }),
 
@@ -116,8 +115,8 @@ var gretting = 'hello';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\commerce-app\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\commerce-app\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Universidad\Programación Web\Bitlab\Commerce-App\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Universidad\Programación Web\Bitlab\Commerce-App\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })

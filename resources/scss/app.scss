@@ -3,12 +3,12 @@
 @import '~tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 
 .font-opensans {
     font-family: 'Open Sans', sans-serif;
@@ -39,11 +39,6 @@
     overflow: hidden;
 }
 
-.h-128 {
-    height: 575px;
-    width: 775px;
-}
-
 .reduce-img{
   height: 300px;
   width: 600px;
@@ -57,4 +52,12 @@
 .instant-img{
   height: 350px;
   width: 550px;
+}
+
+.store-button {
+    transition: transform .1s;
+}
+
+.store-button:hover {
+    transform: scale(1.1);
 }
